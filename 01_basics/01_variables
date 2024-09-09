@@ -1,0 +1,15 @@
+const userId = 23
+let userName = "Aadil"
+var userEmail = "aadil3@h.in"
+let accountState;
+// userId = 24  not allowed
+
+/*
+prefer not to use var 
+Because of block scope and function scope
+*/
+
+city = "delhi"
+userName = "ahmed"
+city = "lucknow"
+console.table([userId,userName,userEmail,city])
