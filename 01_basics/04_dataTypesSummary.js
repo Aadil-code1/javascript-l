@@ -21,7 +21,7 @@
 
 
 const friends=  ["Aadil","Anas","kunal",5]
-console.log(friends)
+// console.log(friends)
 let myObj = {
     name:"Aadil",
     age:18,
@@ -41,3 +41,28 @@ const myFunction = function(){
 // why javascript is dynamically type
 // it automatically assigns thevalue of data type at run time
 
+// stack ( primitive datatypes) ,heap (non primitive)
+
+
+// let user1 = "Aadil"
+
+// let user2 = user1
+// console.log(user2)
+// user2 = "anas"
+// console.log(user1)
+// console.log(user2)
+
+
+// non primitive refrence datatype
+
+ let user1 = {
+       id :"Aadil",
+       email:"yt@1.com"
+
+ }
+ let user2 = user1
+ console.log(user1.email)
+
+ user2.email = "yt@22.in" 
+ console.log(user1.email)
+ console.log(user2.email)
