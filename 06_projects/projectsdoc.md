@@ -5,7 +5,7 @@
 
 ## Solution code
 ## Project 1
-```
+```javascript
 
  console.log("Aadil")
  const buttons = document.querySelectorAll('.button');
@@ -32,12 +32,12 @@ buttons.forEach (function(button){
       body.style.backgroundColor = e.target.id
     }
 
-  })
+  });
 });
 
 ```
 ## project 2 solution code
-```
+```javascript
 const form = document.querySelector('form');
 // this use case will give you empty value
 // const weight = parseInt(document.querySelector('#weight').value)
