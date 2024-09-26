@@ -1,2 +1,2 @@
 # javascript-l
-learning javascript in depth with projects
+Learning javascript in depth with Projects
