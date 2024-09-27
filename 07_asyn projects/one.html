@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async projects</title>
+</head>
+<body>
+    <h1>2 important projects regarding the asynchronous function</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    const sayAadil = function(){
+        console.log ("Aadil");
+    }
+    setTimeout(sayAadil, 3000)
+
+
+
+
+    const change = function (){
+        document.querySelector('h1').innerHTML = "changed after setTimout"
+    }
+    const changed = setTimeout(change,2000)
+
+
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changed)
+        console.log("Stopped")
+    })
+</script>
+</html>
